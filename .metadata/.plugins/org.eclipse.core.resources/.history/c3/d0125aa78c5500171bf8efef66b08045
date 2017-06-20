@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>Step02_Servlet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <!-- 서블릿 정의하기 -->
+  <servlet>
+	<servlet-name>showtimeServlet</servlet-name>
+	<servlet-class>test.servlet.showtimeServlet</servlet-class>  
+  </servlet>
+  <!-- 서블릿 매핑하기 -->
+  <servlet-mapping>
+  	<servlet-name>showtimeServlet</servlet-name>
+  	<url-pattern>/showtime</url-pattern>
+  </servlet-mapping>
+
+  <!-- 서블릿 매핑하기 -->
+  <servlet-mapping>
+  	<servlet-name>show_Fortune</servlet-name>
+  	<url-pattern>/show_fortune</url-pattern>
+  </servlet-mapping>
+  <!-- 서블릿 정의하기 -->
+  <servlet>
+	<servlet-name>show_Fortune</servlet-name>
+	<servlet-class>test.servlet.Show_Fortune</servlet-class>  
+  </servlet>
+  
+    <!-- 서블릿 매핑하기 -->
+  <servlet-mapping>
+  	<servlet-name></servlet-name>
+  	<url-pattern></url-pattern>
+  </servlet-mapping>
+  <!-- 서블릿 정의하기 -->
+  <servlet>
+	<servlet-name>actionServlet</servlet-name>
+	<servlet-class></servlet-class>  
+  </servlet>
+  
+</web-app>
