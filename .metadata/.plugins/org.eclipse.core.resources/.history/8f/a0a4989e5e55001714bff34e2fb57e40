@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.html</title>
+</head>
+<body>
+<h3>인덱스 페이지입니다.</h3>
+<p><strong>문병우</strong>의 웹페이지</p>
+<ul>
+	<li><a href=""></a></li>
+</ul>
+</body>
+</html>

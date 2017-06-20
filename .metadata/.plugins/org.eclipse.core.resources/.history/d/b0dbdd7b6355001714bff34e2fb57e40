@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>subpage.html</title>
+</head>
+<body>
+<h3>/path/subpage.html 입니다.</h3>
+<!-- 링크를 눌렀을때 index.html 페이지로 이동하도록 해보세요. -->
+<!-- 상대경로 -->
+<a href="../index.html">인덱스로 이동하기</a>
+<!-- 절대경로 -->
+<a href="/step01_Path/index.html">인덱스로 이동하기</a>
+<!-- 인터넷상의 절대경로 -->
+<a href="../index.html">인덱스로 이동하기</a>
+</body>
+</html>

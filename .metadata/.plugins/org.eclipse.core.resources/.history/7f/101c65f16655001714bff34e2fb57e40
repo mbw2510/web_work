@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>sample.html</title>
+<!-- css폴더 안에 있는 bootstrap.css를 로딩 시켜보세요 -->
+<link rel="stylesheet" href="/Stpe01_Path/css/bootstrap.css" />
+<link rel="stylesheet" href="http://localhost:8888/Stpe01_Path/css/bootstrap.css" />
+<!-- js폴더 안에 있는 jquery를 로딩시켜보세요. -->
+<link rel="stylesheet" href="http://localhost:8888/Stpe01_Path/js/jquery-3.2.0.js" />
+<link rel="stylesheet" href="/Stpe01_Path/js/jquery-3.2.0.js" />
+</head>
+<body>
+<h3>/path2/sample.html 페이지 입니다.</h3>
+
+</body>
+</html>
